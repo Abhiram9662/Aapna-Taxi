@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aapne Taxi Service</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">Aapne Taxi</div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact Us</a></li>
+    </ul>
+    <button class="book-button">Book a Taxi</button>
+  </nav>
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Your Taxi, Anytime, Anywhere</h1>
+      <p>Reliable, safe, and affordable rides at your fingertips.</p>
+      <button onclick="window.location.href='#booking'" class="cta-button">Book a Taxi</button>
+    </div>
+  </section>
+  <section class="features">
+    <div class="feature">
+      <h3>24/7 Availability</h3>
+      <p>Book a ride any time, day or night.</p>
+    </div>
+    <div class="feature">
+      <h3>Affordable Pricing</h3>
+      <p>Competitive rates for all your travel needs.</p>
+    </div>
+    <div class="feature">
+      <h3>Professional Drivers</h3>
+      <p>Verified drivers for your safety and comfort.</p>
+    </div>
+  </section>
+  <section id="booking" class="booking-section">
+    <h2>Book Your Ride</h2>
+    <form id="booking-form">
+      <label for="pickup">Pick-Up Location</label>
+      <input type="text" id="pickup" required>
+      <label for="drop">Drop-Off Location</label>
+      <input type="text" id="drop" required>
+      <label for="date">Date</label>
+      <input type="date" id="date" required>
+      <label for="time">Time</label>
+      <input type="time" id="time" required>
+      <label for="vehicle-type">Vehicle Type</label>
+      <select id="vehicle-type" required>
+        <option value="Standard">Standard</option>
+        <option value="SUV">SUV</option>
+        <option value="Luxury">Luxury</option>
+      </select>
+      <button type="submit" class="submit-button">Book Now</button>
+    </form>
+  </section>
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>We are committed to providing safe, reliable, and affordable taxi services to our customers. Our mission is to make your travel easy and comfortable, with trusted drivers and well-maintained vehicles.</p>
+    <div class="testimonials">
+      <h3>Customer Testimonials</h3>
+      <p>"Aapne Taxi offers the best taxi service I've ever used!" - Satisfied Customer</p>
+      <p>"Professional and prompt drivers, highly recommended!" - Frequent Rider</p>
+    </div>
+  </section>
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <label for="name">Name</label>
+      <input type="text" id="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" required></textarea>
+      <button type="submit" class="send-button">Send</button>
+    </form>
+    <p>Phone: +1-800-555-1234 | Email: support@aapnetaxi.com</p>
+  </section>
+   <footer>
+    <p>&copy; 2024 Aapne Taxi. All rights reserved.</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+      <a href="https://www.instagram.com"><img src=" Instagram.png" alt="Twitter"></a>
+      <a href="https://www.twitter.com"><img src="twitter.png" alt="Instagram"></a>
+    </div>
+  </footer>
+</body>
+</html>

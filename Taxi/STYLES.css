@@ -1,0 +1,107 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffcc00;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a, .book-button {
+  text-decoration: none;
+  color: #000;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url('apnataxi.png');
+  background-size: cover;
+  color: #040404;
+}
+
+.cta-button {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.booking-section {
+  background-color: #f2f2f2;
+  padding: 40px;
+}
+
+.booking-section form {
+  display: grid;
+  gap: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.submit-button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.about-section {
+  padding: 40px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.testimonials {
+  margin-top: 20px;
+}
+.contact-section {
+  background-color: #333;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.contact-section form {
+  display: grid;
+  gap: 10px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.send-button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: left;
+  padding: 20px;
+  background-color: #000;
+  
+}
